@@ -1,0 +1,24 @@
+
+<script defer="defer" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<link rel="styleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" defer />
+<link href="{{ 'sliderStyle.css' | asset_url}}">
+<script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+<script defer="defer" src="{{'frontScript.js' | asset_url }}"></script>
+
+
+<div id="newsShow">
+  <h3> News Slider </h3>
+</div>
+<div class=" owl-carousel one owl-theme"> 
+</div>
+<a href="https://ourdress2021.myshopify.com/pages/news"><button class="show_all_news">See More..</button></a>
+
+
+{% schema %}
+{
+  "name": "Slide show",
+  "target": "section"
+}
+{% endschema %}
+
+
